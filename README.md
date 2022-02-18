@@ -23,4 +23,4 @@
 
 
 ## 💻 Projeto
-Flix.seriers Catálogo de séries onde é possíver ver às Séries em alta, fazer uma busca e até favoritar suas Séries preferidas. 
+Flix.series Catálogo de séries onde é possíver ver às Séries em alta, fazer uma busca e até favoritar suas Séries preferidas. 
