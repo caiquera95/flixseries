@@ -1,0 +1,18 @@
+body {
+    background-color: #16151A;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , span, strong, form, h2, input {
+    font-family: 'Ubuntu', verdana, Open-Sans;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+

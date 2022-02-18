@@ -1,0 +1,322 @@
+.AppMyList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boxContainer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(94, 94, 94);
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.central h5 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.container-vazio {
+    margin-top: 80px;
+}
+
+.boxContainer ul {
+    width: 90%;
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxContainer li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.boxContainer strong {
+    margin: 5px;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxContainer span svg {
+    color: #F5C518;
+    margin-right: 3px;
+    font-size: 20px;
+}
+
+.boxContainer a {
+    color: #fff;
+    font-weight: 200;
+}
+
+
+
+.boxContainer span {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+}
+
+.infos2 {
+    display: flex;
+}
+
+.infos2 span {
+    font-size: 20px;
+}
+
+.infos2 a {
+    font-size: 20px;
+}
+
+.imgMyList {
+    margin: 10px;
+    width: 80px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.boxContainer .delete button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    background: transparent;
+    border: 0;
+    margin: 20px;
+}
+
+.boxContainer div button:hover {
+    cursor: pointer;
+    /* color: yellow; */
+}
+
+
+@media (max-width: 1024px){
+    .container-vazio {
+    height: 100vh;
+    background-color: #16151A;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+}
+
+
+@media (max-width: 768px){
+    .NavBar {
+        padding-left: 140px;
+    }
+}
+
+@media (max-width: 425px){
+    .central {
+        width: 95%;
+    }
+
+    .boxContainer strong {
+        font-size: .9em;
+    }
+
+    .boxContainer ul {
+        width: 100%;
+        margin: 10px;
+    }
+    .titles img {
+        width: 50px;
+        height: 80px;
+    }
+
+    .boxContainer span svg {
+        font-size: 1em;
+    }
+
+    .boxContainer span {
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 10px;
+    }
+
+    .titles {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+    
+    .infos2 {
+        padding-left: 5px;
+    }
+
+    .infos2 span {
+        font-size: 1em;
+    }
+
+    .infos2 a {
+        font-size: .9em;
+    }
+
+    .boxContainer .delete button{
+        color: red;
+        font-size: 1.5em;
+        margin: 10px;
+    }
+    
+    .boxContainer div button:hover {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 375px){
+    .central {
+        width: 95%;
+    }
+
+    .boxContainer strong {
+        font-size: .8em;
+    }
+
+    .boxContainer ul {
+        width: 100%;
+        margin: 10px;
+    }
+    .titles img {
+        width: 50px;
+        height: 80px;
+    }
+
+    .boxContainer span svg {
+        font-size: 1em;
+    }
+
+    .boxContainer span {
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 10px;
+    }
+
+    .titles {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+    
+    .infos2 {
+        padding-left: 5px;
+    }
+
+    .infos2 span {
+        font-size: .9em;
+    }
+
+    .infos2 a {
+        font-size: .9em;
+    }
+
+    .boxContainer .delete button{
+        color: red;
+        font-size: 1.5em;
+        margin: 10px;
+    }
+    
+    .boxContainer div button:hover {
+        cursor: pointer;
+    }
+    
+}
+
+@media (max-width: 360px){
+    .NavBar {
+        padding-left: 20px;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+        font-size: .9em;
+    }
+
+    
+}
+
+@media (max-width: 320px){
+    .central {
+        width: 95%;
+    }
+
+    .boxContainer strong {
+        font-size: .7em;
+    }
+
+    .boxContainer ul {
+        width: 100%;
+        margin: 10px;
+    }
+    .titles img {
+        width: 50px;
+        height: 80px;
+    }
+
+    .boxContainer span svg {
+        font-size: .8em;
+    }
+
+    .boxContainer span {
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 10px;
+    }
+
+    .titles {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+    
+    .infos2 {
+        padding-left: 5px;
+    }
+
+    .infos2 span {
+        font-size: .8em;
+    }
+
+    .infos2 a {
+        font-size: .7em;
+    }
+
+    .boxContainer .delete button{
+        color: red;
+        font-size: 1.5em;
+        margin: 10px;
+    }
+    
+    .boxContainer div button:hover {
+        cursor: pointer;
+    }
+}

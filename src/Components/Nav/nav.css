@@ -1,0 +1,106 @@
+.NavBar {
+    margin-top: 60px;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    padding-left: 240px;
+    background-color: #16151A;
+}
+
+.NavBar svg {
+    color: #fff;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    border-bottom: 1px solid red ;
+}
+
+.nav-link.active {
+    opacity: 1;
+    border-bottom: 1px solid red ;
+}
+
+
+@media (max-width: 1024px){
+    .NavBar {
+        padding-left: 150px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .NavBar {
+        padding-left: 140px;
+    }
+}
+
+@media (max-width: 425px){
+    .NavBar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 10px;
+    }
+
+    .nav-link {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 375px){
+    .NavBar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 30px;
+    }
+
+    .nav-link {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 360px){
+    .NavBar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 320px){
+    .NavBar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 20px;
+    }
+
+    .nav-link {
+        font-size: .9em;
+    }
+}
+
+
+

@@ -1,0 +1,77 @@
+.card-temporada {
+    display: flex;
+}
+
+.card-temporada img{
+    max-width: 100px;
+    max-height: 150px;
+    border-radius: 5px;
+}
+
+.temporada-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(175, 175, 175);
+}
+
+.temporada-info h2 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.temporada-info strong{
+    margin: 5px;
+    margin-left: 10px;
+    color: rgb(170, 170, 170);
+}
+
+@media (max-width: 425px){
+    .card-temporada img{
+        max-width: 90px;
+        max-height: 120px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 375px){
+    .card-temporada img{
+        max-width: 80px;
+        max-height: 110px;
+        border-radius: 5px;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .card-temporada img{
+        max-width: 80px;
+        max-height: 100px;
+        border-radius: 5px;
+    }
+
+    .temporada-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: rgb(175, 175, 175);
+    }
+    
+    .temporada-info h2 {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        margin: 5px;
+    }
+    
+    .temporada-info strong{
+        margin: 5px;
+        margin-left: 10px;
+        color: rgb(170, 170, 170);
+    }
+}
+
+
