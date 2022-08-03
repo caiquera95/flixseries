@@ -1,4 +1,4 @@
-# FinderDev ReactJS
+# Flix.Series React.JS
 
 ### Acesse https://flixseries.netlify.app
 
